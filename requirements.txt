@@ -1,0 +1,9 @@
+requests
+urllib3==1.26.7
+aws_lambda_powertools
+pydantic
+starlette
+boto3
+botocore
+mongoengine
+parameterized
