@@ -1,11 +1,22 @@
 from mongoengine import Document, StringField, DateTimeField, SequenceField
 from datetime import datetime
-from pydantic import BaseModel, constr, Field
+from pydantic import BaseModel, constr,  StrictInt, Field
 
 
-class Item(BaseModel):
+class ItemCreate(BaseModel):
     title: constr(min_length=1, max_length=20)
     description: constr(min_length=1)
+
+
+class ItemGet(BaseModel):
+    id: int = Field(strict=False)
+
+
+class ItemPut(BaseModel):
+    id: int = Field(strict=False)
+
+class ItemDelete(BaseModel):
+    id: int = Field(strict=False)
 
 
 class ToDoItem(Document):

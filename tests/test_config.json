@@ -1,0 +1,74 @@
+{
+  "create_action": {
+    "inputs": [
+      {
+        "title": "Sample Task",
+        "description": "This is a sample TODO item."
+      },
+      {
+        "title": "Complex Task",
+        "description": "This is a Complex TODO item."
+      },
+      {
+        "title": "",
+        "description": "This is a sample TODO item."
+      },
+      {
+        "title": "Sample Task"
+      },
+      {
+      }
+    ],
+      "expected_output": 0
+  },
+  "get_action": {
+    "inputs": [
+      {
+        "id": 100
+      },
+      {
+        "id": 5
+      },
+      {
+        "id": ""
+
+      },
+      {
+        "id": "%$%%53"
+
+      },
+      {
+        "id": "5"
+
+      },
+      {
+      }
+    ],
+      "expected_output": 0
+  },
+    "put_action": {
+    "inputs": [
+      {
+        "id": 100
+      },
+      {
+        "id": 5
+      },
+      {
+        "id": ""
+
+      },
+      {
+        "id": "%$%%53"
+
+      },
+      {
+        "id": "5"
+
+      },
+      {
+      }
+    ],
+      "expected_output": 0
+  }
+}
