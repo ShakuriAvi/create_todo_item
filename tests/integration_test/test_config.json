@@ -71,6 +71,10 @@
     ],
       "expected_output": 0
   },
+  "environ": {
+    "HOST": "mongodb+srv://developavi96:FEp3yXwbYii9MXhN@dbexercises.in9xrca.mongodb.net/?retryWrites=true&w=majority&appName=DBExercises",
+    "TODOS_DBNAME": "tasks",
+    "USERS_DBNAME": "users"
   }
 
 }

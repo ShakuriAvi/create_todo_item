@@ -15,6 +15,7 @@ class ItemGet(BaseModel):
 class ItemPut(BaseModel):
     id: int = Field(strict=False)
 
+
 class ItemDelete(BaseModel):
     id: int = Field(strict=False)
 
